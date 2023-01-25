@@ -1,0 +1,268 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+/* h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h2{ */
+/* font-family: "Montserrat-Bold"; */
+/* font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+} */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.5;
+}
+
+/* headings  */
+.big-heading {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #1461AB;
+    color: #E6ECF2;
+}
+
+.offwhite-section {
+    background-color: #E6ECF2;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 7% 5%;
+}
+
+
+/* Navigation Bar  */
+.navbar {
+    padding: 0 0 3rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    color: #E6ECF2;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+/* Title section */
+#title {
+    text-align: left;
+}
+#title .container-fluid {
+    padding: 3% 12%;
+  }
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+.icon {
+    margin-right: 10px;
+}
+
+/* Title Images and Animation*/
+.title-image {
+    -webkit-animation: mover 0.01s infinite alternate;
+    animation: mover 0.5s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.title-image-right {
+    width: 45%;
+    float: right;
+}
+
+.title-image-left {
+    width: 75%;
+    float: left;
+}
+
+/* Features Section  */
+#features {
+    background-color: #E6ECF2;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+.local-icon {
+    color: #104270;
+    margin-bottom: 1rem;
+}
+
+.local-icon:hover {
+    color: #1461AB;
+}
+
+.feature-text {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+/* Testimonial Section */
+#testimonials {
+    background-color: #104270;
+}
+.testimonial-image1 {
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+
+.testimonial-image2 {
+    width: 15%;
+    border-radius: 100%;
+    margin: 8px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press section  */
+#press {
+    background-color: #104270;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+.sub-text {
+    font-size: 0.8rem;
+}
+.card-heading{
+    line-height: 1;
+}
+
+/* CTA  */
+
+
+/* Footer */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    #pricing{
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+    }
+
+    .title-image-right {
+        display: none;
+    }
+
+    .title-image-left {
+        width: 90%;
+        float: none;
+        margin: 7% auto;
+    }
+    .price-text{
+        font-size: large;
+        font-weight: bold;
+    }
+    .header-box {
+        margin: 3% auto;
+    }
+    .feature-box{
+        margin: 7% 15%;
+    }
+    .testimonial-text {
+        font-size: 2rem;
+    }
+    .section-heading {
+        font-size: 2rem;
+    }
+    .feature-text{
+        font-size: 1rem;
+    }
+    .big-heading {
+        font-size: 2rem;
+    }
+    .card-heading{
+        font-size: x-large;
+        font-weight: bold;
+        line-height: 1;
+    }
+    /* .card-button{
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+    } */
+}
